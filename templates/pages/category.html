@@ -16,6 +16,12 @@ category:
 
 {{#partial "page"}}
 
+{{#if customer}}
+  <div class="customer-banner">
+    <p>Hello! Your email is {{customer.email}} and phone number is {{customer.phone}}.</p>
+  </div>
+{{/if}}
+
 {{> components/common/breadcrumbs breadcrumbs=breadcrumbs}}
 {{#if category.image}}
     {{> components/common/responsive-img
