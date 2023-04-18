@@ -14,7 +14,7 @@ Add all products to cart.
 
 Remove products from cart.
 
-# Features
+# Used Features
 
 Store Front API,  Handlebars,  Alternative usage of @bigcommerce/stencil-utils,  Global Setting
 
