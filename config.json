@@ -395,7 +395,9 @@
         ]
       },
       "images": {},
-      "settings": {}
+      "settings": {
+        "cart_api_prefix_url" : "/api/storefront/carts"
+      }
     },
     {
       "name": "Bold",

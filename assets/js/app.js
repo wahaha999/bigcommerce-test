@@ -53,8 +53,8 @@ const pageClasses = {
 };
 
 const customClasses = {
-    'test/category/card': () => import('./theme/test/card'), // Mac/Linux
-    'test\\category\\card': () => import('./theme/test/card'), // Windows
+    'pages/category': () => import('./theme/test/addRemoveProduct'), // Mac/Linux
+    'pages\\category': () => import('./theme/test/addRemoveProduct'), // Windows
 };
 
 /**
