@@ -8,13 +8,13 @@ npm install
 ```
 # Tasks
 
-Hover effect on Prodcut Image.
+- Hover effect on Prodcut Image.
 
-Display customer Information.
+- Display customer Information.
 
-Add all products to cart.
+- Add all products to cart.
 
-Remove products from cart.
+- Remove products from cart.
 
 # Used Features
 
