@@ -1,9 +1,11 @@
 # Getting setup
+```
+npm install -g @bigcommerce/stencil-cli
 
 npm install -g grunt-cli
 
 npm install
-
+```
 # Tasks
 
 Hover effect on Prodcut Image.
@@ -19,5 +21,6 @@ Remove products from cart.
 Store Front API,  Handlebars,  Alternative usage of @bigcommerce/stencil-utils,  Global Setting
 
 # Getting started
-
+```
 stencil start
+```
