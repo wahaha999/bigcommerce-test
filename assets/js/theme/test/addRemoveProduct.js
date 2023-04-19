@@ -78,12 +78,12 @@ export default class AddRemoveProduct extends PageManager {
         try {
             let url = `${this.context.cartApiPrefixUrl}/${this.cart.id}/items`;
             let options = {method: 'DELETE', headers: {'Content-Type': 'application/json'}};
-            this.removableItems.forEach( async item => {
-                response = await fetch(`${url}/${item.itemId}`, options);
-                if (!response.ok) {
-                    throw new Error('Failed to delete cart items');
+            for (const item of this.removableItems) {
+                const result = await fetch(`${url}/${item.itemId}`, options);
+                if (!result.ok) {
+                    throw new Error('Failed to delete cart item');
                 }
-            });
+            }
             window.location.href = "/cart.php";
         } catch (error) {
            alert(error);
